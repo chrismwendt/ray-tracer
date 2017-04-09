@@ -1,0 +1,36 @@
+output
+{
+	average of sample images
+	{
+		each sample image
+		{
+			each pixel radiance
+			{
+				total red, green, and blue radiance
+				{
+					sum of hit triangle material radiances
+					{
+						each hit triangle
+						{
+							ray position
+							{
+								from camera on spawn or from previous position + previous vector
+							}
+							
+							ray vector
+							{
+								from camera on spawn
+								or from material
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	tone map
+	{
+		coded
+	}
+}
