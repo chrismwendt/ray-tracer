@@ -1,0 +1,22 @@
+output_image_path
+
+samples_processed ray_depth
+
+image_width image_height
+
+radiance_clamp
+
+camera_position_x camera_position_y camera_position_z
+camera_vector_look_x camera_vector_look_y camera_vector_look_z
+camera_vector_up_x camera_vector_up_y camera_vector_up_z
+camera_view_angle_x camera_view_angle_y
+
+sky_radiance_red sky_radiance_green sky_radiance_blue
+
+v vertex_position_x vertex_position_y vertex_position_z
+...
+
+t triangle_vertex[0] triangle_vertex[1] triangle_vertex[2] triangle_index
+...
+
+m red_reflectivity red_reflect_glossiness red_refractivity red_refract_glossiness red_radiance green_reflectivity green_reflect_glossiness green_refractivity green_refract_glossiness green_radiance blue_reflectivity blue_reflect_glossiness blue_refractivity blue_refract_glossinessblue_radiance index_of_refraction
